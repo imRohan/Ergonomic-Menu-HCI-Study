@@ -8,50 +8,50 @@
 		android:padding="5dp" android:text="@string/instructions"
 		android:textAppearance="?android:attr/textAppearanceMedium" />
 	
-	<TableRow android:layout_width="80dp"
+	<TableRow android:layout_width="400dp"          																
 		android:layout_height="wrap_content" android:layout_marginBottom="5dp"
-		android:layout_marginTop="10dp"  android:gravity="center" android:layout_marginLeft="240dp">
+		android:layout_marginTop="10dp"  android:gravity="center" >
 		<ImageButton android:id="@+id/oneButton"
 		    
 			android:layout_width="wrap_content" android:layout_height="wrap_content"
 			android:layout_weight="1" android:contentDescription="@string/backspaceButtonText"
-			android:onClick="buttonClick" android:padding="10dp" android:src="@drawable/bs_normal"
+			android:onClick="buttonClick" android:padding="10dp" android:src="@drawable/button1"
 			android:background="@null" />
 	</TableRow>
-	<TableRow android:layout_width="80dp"
+	<TableRow android:layout_width="400dp"
 		android:layout_height="wrap_content" android:layout_marginBottom="5dp"
-		android:layout_marginTop="5dp" android:gravity="center" android:layout_marginLeft="200dp">
+		android:layout_marginTop="5dp" android:gravity="center" >
 		<ImageButton android:id="@+id/twoButton"
 			android:layout_width="wrap_content" android:layout_height="wrap_content"
 			android:layout_weight="1" android:contentDescription="@string/backspaceButtonText"
-			android:onClick="buttonClick" android:padding="10dp" android:src="@drawable/bs_normal"
+			android:onClick="buttonClick" android:padding="10dp" android:src="@drawable/button2"
 			android:background="@null" />
 	</TableRow>
-	<TableRow android:layout_width="80dp"
+	<TableRow android:layout_width="400dp"
 		android:layout_height="wrap_content" android:layout_marginBottom="5dp"
-		android:layout_marginTop="5dp" android:gravity="center" android:layout_marginLeft="160dp">
+		android:layout_marginTop="5dp" android:gravity="center" >
 		<ImageButton android:id="@+id/threeButton"
 			android:layout_width="wrap_content" android:layout_height="wrap_content"
 			android:layout_weight="1" android:contentDescription="@string/backspaceButtonText"
-			android:onClick="buttonClick" android:padding="10dp" android:src="@drawable/bs_normal"
+			android:onClick="buttonClick" android:padding="10dp" android:src="@drawable/button3"
 			android:background="@null" />
 	</TableRow>
-	<TableRow android:layout_width="80dp"
+	<TableRow android:layout_width="400dp"
 		android:layout_height="wrap_content" android:layout_marginBottom="5dp"
-		android:layout_marginTop="5dp" android:gravity="center" android:layout_marginLeft="120dp">
+		android:layout_marginTop="5dp" android:gravity="center" >
 		<ImageButton android:id="@+id/fourButton"
 			android:layout_width="wrap_content" android:layout_height="wrap_content"
 			android:layout_weight="1" android:contentDescription="@string/backspaceButtonText"
-			android:onClick="buttonClick" android:padding="10dp" android:src="@drawable/bs_normal"
+			android:onClick="buttonClick" android:padding="10dp" android:src="@drawable/button4"
 			android:background="@null" />
 	</TableRow>
-	<TableRow android:layout_width="80dp"
+	<TableRow android:layout_width="400dp"
 		android:layout_height="wrap_content" android:layout_marginBottom="5dp"
-		android:layout_marginTop="5dp" android:gravity="center" android:layout_marginLeft="80dp">
+		android:layout_marginTop="5dp" android:gravity="center" >
 		<ImageButton android:id="@+id/fiveButton"
 			android:layout_width="wrap_content" android:layout_height="wrap_content"
 			android:layout_weight="1" android:contentDescription="@string/backspaceButtonText"
-			android:onClick="buttonClick" android:padding="10dp" android:src="@drawable/bs_normal"
+			android:onClick="buttonClick" android:padding="10dp" android:src="@drawable/button5"
 			android:background="@null" />
 	</TableRow>
 	<TableRow android:layout_width="wrap_content"
